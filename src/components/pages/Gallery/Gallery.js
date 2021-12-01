@@ -48,10 +48,10 @@ function Gallery() {
     const length = data.length
     
     const nextSlide=()=>{
-        setCurrent(current==length-1 ? 0:current+1)
+        setCurrent(current===length-1 ? 0:current+1)
     }
     const prevSlide=()=>{
-        setCurrent(current==0 ? length+1:current-1)
+        setCurrent(current===0 ? length+1:current-1)
     }
     
     if(!Array.isArray(data) || data.length<=0){
@@ -75,7 +75,7 @@ function Gallery() {
                     return(
                         <div className={index === current ? 'slide active ': 'slide'} key={index}>
                             
-                            {index == current &&
+                            {index === current &&
                             (<img src={item.imgSrc} className="slider-images" alt="Gallery of past clientele" />
                             )}
 
