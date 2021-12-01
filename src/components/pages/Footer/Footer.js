@@ -58,8 +58,8 @@ function Footer() {
           
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>07740318500</Link>
-            <Link to='/'>mashandablessing@outlook.com</Link>
+            <Link to='/'>07957146400</Link>
+            <Link to='/'>d.t.njambi@gmail.com</Link>
 
           </div>
 
