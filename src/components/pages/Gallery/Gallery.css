@@ -1,65 +1,62 @@
-.pics-images{
-    width: 100%;
-}
-
-.gallery{
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
-    -webkit-column-width: 20%;
-    -moz-column-width: 20%;
-    column-width: 20%;
-    /* padding: 0px 20px; */
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(211,161,98,1) 50%, rgba(0,0,0,1) 100%);
-}
-
-.gallery .pics{
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease;
-    cursor: pointer;
-    margin-bottom: 12px;
-}
-.gallery .pics:hover{
-    filter: opacity(.8);
+.banner-div{
+    height: max-content;
 }
 .banner{
     width: 100%;
 }
-@media screen and (max-width: 900px) {
-    .gallery{
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-        -webkit-column-width: 100%;
-        -moz-column-width: 100%;
-        column-width: 100%;
-        padding: 0px 10px 0px 10px;
-    
-    }
-    .gallery .pics{
-        -webkit-transition: all 350ms ease;
-        transition: all 350ms ease;
-        cursor: pointer;
-        margin-bottom: 12px;
-    }
+
+.slider{
+    position: relative;
+    height: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(211,161,98,1) 50%, rgba(0,0,0,1) 100%);
+
 }
 
-@media screen and (max-width: 500px) {
-    .gallery{
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        -webkit-column-width: 100%;
-        -moz-column-width: 100%;
-        column-width: 100%;
-        /* padding: 0px 10px; */
+.slider-images{
+    /* width: 1000px; */
+    height: 600px;
+    border-radius: 10px;
     
+}
+.right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    user-select: none;
+}
+.left-arrow{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    user-select: none;
+}
+.slid {
+opacity: 0;
+transition-duration: 1s ease;
+
+}
+.slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+@media screen and (max-width: 900px) {
+    .slider-images{
+        /* width: 1000px; */
+        height: 300px;
+        border-radius: 10px;
+        
     }
-    .gallery .pics{
-        -webkit-transition: all 350ms ease;
-        transition: all 350ms ease;
-        cursor: pointer;
-        margin-bottom: 12px;
-    }
+
 }

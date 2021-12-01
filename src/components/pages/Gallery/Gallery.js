@@ -1,5 +1,6 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Gallery.css';
+import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 function Gallery() {
 
     let data=[
@@ -43,13 +44,48 @@ function Gallery() {
         },
 
     ]
+    const [current, setCurrent]= useState(0)
+    const length = data.length
+    
+    const nextSlide=()=>{
+        setCurrent(current==length-1 ? 0:current+1)
+    }
+    const prevSlide=()=>{
+        setCurrent(current==0 ? length+1:current-1)
+    }
+    
+    if(!Array.isArray(data) || data.length<=0){
+        return null
+    }
+    console.log(current,length)
+
+
+
+
+
+
     return (
         <>
-            <div>
+            <div className="banner-div">
                 <img src={process.env.PUBLIC_URL + "/images/logo.jpg"}
                     className='banner' alt="main logo"/>
             </div>
-            <div className="gallery">
+            <section className="slider">
+                <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
+                {data.map((item,index)=>{ 
+                    return(
+                        <div className={index === current ? 'slide active ': 'slide'} key={index}>
+                            
+                            {index == current &&
+                            (<img src={item.imgSrc} className="slider-images" alt="Gallery of past clientele" />
+                            )}
+
+                        </div>
+                    )
+                })}
+                <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>
+            </section>
+            {/* <div className="gallery">
                 {data.map((item,index)=>{ 
                     return(
                         <div className="pics" key={index}>
@@ -59,7 +95,7 @@ function Gallery() {
                         </div>
                     )
                 })}
-            </div>
+            </div> */}
         </>
     )
 }
