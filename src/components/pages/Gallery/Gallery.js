@@ -47,13 +47,13 @@ function Gallery() {
         <>
             <div>
                 <img src={process.env.PUBLIC_URL + "/images/logo.jpg"}
-                    className='banner'/>
+                    className='banner' alt="main logo"/>
             </div>
             <div className="gallery">
                 {data.map((item,index)=>{ 
                     return(
                         <div className="pics" key={index}>
-                            <img src={item.imgSrc} className="pics-images" />
+                            <img src={item.imgSrc} className="pics-images" alt="Gallery of past clientele" />
 
 
                         </div>

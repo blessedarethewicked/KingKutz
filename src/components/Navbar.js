@@ -1,45 +1,45 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
 
 import './Navbar.css';
-import {Button} from './Button'
+// import {Button} from './Button'
 import { FaBars, FaTimes } from 'react-icons/fa';
 // import logo from "..images/logo.jpg"
 
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
+    // const [button, setButton] = useState(true);
   
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
   
-    const showButton = () => {
-      if (window.innerWidth <= 960) {
-        setButton(false);
-      } else {
-        setButton(true);
-      }
-    };
+    // const showButton = () => {
+    //   if (window.innerWidth <= 960) {
+    //     setButton(false);
+    //   } else {
+    //     setButton(true);
+    //   }
+    // };
   
-    useEffect(() => {
-      showButton();
-      window.addEventListener('resize', showButton);
-      return(
+    // useEffect(() => {
+    //   showButton();
+    //   window.addEventListener('resize', showButton);
+    //   return(
 
-          window.removeEventListener('resize', showButton)
-      )
+    //       window.removeEventListener('resize', showButton)
+    //   )
   
-    }, []);
+    // }, []);
   
     return(
         <IconContext.Provider value={{color:'#fff'}}>
             <nav className="navbar">
                 <div className="navbar-container">
                 <Link to='/' className='navbar-logo'>
-                    <img src={process.env.PUBLIC_URL + "/images/logo.jpg"}
-                            className='navbar-logo-image' />
+                    <img src={process.env.PUBLIC_URL + "/images/logo.jpg" }
+                            className='navbar-logo-image' alt="King Kutz Logo" />
 
                 </Link>
 
