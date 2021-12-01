@@ -9,7 +9,7 @@ import {
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
+import { BiCut } from 'react-icons/bi';
 
 function Footer() {
   return (
@@ -73,27 +73,14 @@ function Footer() {
           
         </div>
         <div className='footer-link-wrapper'>
-          {/* <div className='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div> */}
-          {/* <div className='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div> */}
+
         </div>
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
+              <BiCut className='navbar-icon' />
               KING KUTZ
             </Link>
           </div>
