@@ -57,7 +57,6 @@ function Gallery() {
     if(!Array.isArray(data) || data.length<=0){
         return null
     }
-    console.log(current,length)
 
 
 
