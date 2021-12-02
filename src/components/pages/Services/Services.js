@@ -1,6 +1,6 @@
 import React from 'react'
 import './Services.css'
-import { GiBeard } from 'react-icons/gi';
+
 
 function Services() {
     return (
