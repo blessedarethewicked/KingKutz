@@ -65,10 +65,6 @@ function Gallery() {
 
     return (
         <>
-            <div className="banner-div">
-                <img src={process.env.PUBLIC_URL + "/images/logo.jpg"}
-                    className='banner' alt="main logo"/>
-            </div>
             <section className="slider">
                 <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
                 {data.map((item,index)=>{ 

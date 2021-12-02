@@ -1,0 +1,8 @@
+.banner-div{
+    /* height: max-content; */
+    background-color: black;
+}
+.banner{
+    width: 100%;
+    height: max-content;
+}
