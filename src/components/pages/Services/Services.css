@@ -29,6 +29,13 @@
     /* justify-content: center; */
 
 }
+.service:hover{
+    transition-duration: 0.5s;
+    /* color: rgba(211,161,98,1); */
+    transform: scale(1.08);
+
+    padding-bottom: 20px;
+}
 .large{
     padding-bottom: 30px;
 }
@@ -41,16 +48,18 @@
 
     height: 80px;
 
-    color: green;
 
 }
 .child-image{
     height: 80px;
+    
 }
+
 
 @media screen and (max-width: 800px) {
     .service{
         display: table-row;
+        /* padding-bottom: 20px; */
     }
 
 
