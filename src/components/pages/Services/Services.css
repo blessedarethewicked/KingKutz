@@ -31,7 +31,8 @@
 }
 .service:hover{
     transition-duration: 0.5s;
-    /* color: rgba(211,161,98,1); */
+    /* color: rgba(211,161,98,1);#
+     */
     transform: scale(1.08);
 
     padding-bottom: 20px;
