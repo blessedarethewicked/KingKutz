@@ -31,7 +31,7 @@ function Navbar() {
 
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={()=>scrow(400)}>
+                            <Link to='/' className='nav-links' onClick={()=>scrow(0)}>
                             Home
                             </Link>
                         </li>
@@ -39,7 +39,7 @@ function Navbar() {
                             <Link
                             to='/'
                             className='nav-links'
-                            onClick={()=>scrow(1300)}
+                            onClick={()=>scrow(300)}
                             >
                             Services
                             </Link>
@@ -48,7 +48,7 @@ function Navbar() {
                             <Link
                             to='/'
                             className='nav-links'
-                            onClick={()=>scrow(2200)}
+                            onClick={()=>scrow(1500)}
                             >
                             Gallery
                             </Link>
@@ -57,7 +57,7 @@ function Navbar() {
                             <Link
                             to='/'
                             className='nav-links'
-                            onClick={()=>scrow(3000)}
+                            onClick={()=>scrow(2600)}
                             >
                             About
                             </Link>
