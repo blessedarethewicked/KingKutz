@@ -67,7 +67,8 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>07957146400</Link>
-            <Link to='/' >d.t.njambi@gmail.com</Link>
+            {/* <Link to='/' >d.t.njambi@gmail.com</Link> */}
+            <a href="mailto:d.t.njambi@gmail.com">d.t.njambi@gmail.com</a>
 
           </div>
 
