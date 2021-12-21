@@ -78,7 +78,7 @@ function Footer() {
                 '//www.instagram.com/official_kingkutz/'
               }>Instagram</Link>
             <Link to={
-                'https://www.facebook.com/King-Kutz-111347514359243/'
+                '//www.facebook.com/King-Kutz-111347514359243/'
               }>Facebook</Link>
           </div>
           
