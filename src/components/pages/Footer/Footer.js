@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin
+  // FaYoutube,
+  // FaTwitter,
+  // FaLinkedin
 } from 'react-icons/fa';
 import { BiCut } from 'react-icons/bi';
 
