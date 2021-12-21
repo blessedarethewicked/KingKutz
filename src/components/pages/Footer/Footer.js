@@ -88,7 +88,9 @@ function Footer() {
           <div className='social-icons'>
             <Link
               className='social-icon-link'
-              to='/'
+              to={
+                'https://www.facebook.com/pages/category/Barber-Shop/King-Kutz-111347514359243/'
+              }
               target='_blank'
               aria-label='Facebook'
             >
@@ -96,13 +98,15 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/'
+              to={
+                'https://www.instagram.com/official_kingkutz/'
+              }
               target='_blank'
               aria-label='Instagram'
             >
               <FaInstagram />
             </Link>
-            <Link
+            {/* <Link
               className='social-icon-link'
               to={
                 '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
@@ -127,7 +131,7 @@ function Footer() {
               aria-label='LinkedIn'
             >
               <FaLinkedin />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>

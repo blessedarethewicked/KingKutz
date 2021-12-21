@@ -1,6 +1,9 @@
 .navbar{
     background-color: rgb(0, 0, 0);
     height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 
 }
 .navbar-container{
@@ -25,9 +28,9 @@
 .menu-icon {
     display: block;
     position: absolute;
-    top: 5px;
-    right: 0;
-    transform: translate(-100%, 60%);
+    top: 25px;
+    right: 20px;
+    padding-left: 10px;
     font-size: 1.8rem;
     cursor: pointer; 
 }

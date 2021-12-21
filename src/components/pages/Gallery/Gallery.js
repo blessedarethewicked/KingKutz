@@ -53,6 +53,23 @@ function Gallery() {
     const prevSlide=()=>{
         setCurrent(current===0 ? length+1:current-1)
     }
+
+    const InitalSeconds = 10;
+    const [seconds, setSeconds] = useState(InitalSeconds);
+
+    React.useEffect(() => {
+      if (seconds > 0) {
+        setTimeout(() => setSeconds(seconds - 1), 1000);
+      } else {
+        setSeconds(0);
+      }
+    },[seconds]);
+
+    if(seconds===0){
+        nextSlide()
+        setSeconds(InitalSeconds)
+    }
+
     
     if(!Array.isArray(data) || data.length<=0){
         return null
@@ -80,17 +97,7 @@ function Gallery() {
                 })}
                 <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>
             </section>
-            {/* <div className="gallery">
-                {data.map((item,index)=>{ 
-                    return(
-                        <div className="pics" key={index}>
-                            <img src={item.imgSrc} className="pics-images" alt="Gallery of past clientele" />
 
-
-                        </div>
-                    )
-                })}
-            </div> */}
         </>
     )
 }
