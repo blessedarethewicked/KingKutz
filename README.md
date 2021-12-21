@@ -2,7 +2,9 @@
 
 This project is the website for King Kutz. and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is hosted on Netlify 
+This project is hosted on Netlify [Netlify](https://www.netlify.com/)
+
+The domain name was bought on [Go Daddy](https://www.godaddy.com/)
 
 ## Available Scripts
 
