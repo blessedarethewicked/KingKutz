@@ -51,5 +51,16 @@ transition-duration: 1s ease;
         border-radius: 10px;
         
     }
+    .left-arrow{
+        margin-top: 200px;
+
+        
+    }
+    .right-arrow{
+        margin-top: 200px;
+
+        
+    }
+
 
 }
