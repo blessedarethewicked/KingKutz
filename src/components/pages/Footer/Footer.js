@@ -38,16 +38,16 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Address </h2>
             <Link to={
-              'https://www.google.com/maps/place/90+Midland+Rd,+Bedford+MK40+1QH/@52.1355309,-0.476086,17z/data=!4m13!1m7!3m6!1s0x4877b6ce4963c343:0x6436b246fe2ae330!2s90+Midland+Rd,+Bedford+MK40+1QH!3b1!8m2!3d52.1355309!4d-0.4738973!3m4!1s0x4877b6ce4963c343:0x6436b246fe2ae330!8m2!3d52.1355309!4d-0.4738973'
+              '//www.google.com/maps/place/90+Midland+Rd,+Bedford+MK40+1QH/@52.1355309,-0.476086,17z/data=!4m13!1m7!3m6!1s0x4877b6ce4963c343:0x6436b246fe2ae330!2s90+Midland+Rd,+Bedford+MK40+1QH!3b1!8m2!3d52.1355309!4d-0.4738973!3m4!1s0x4877b6ce4963c343:0x6436b246fe2ae330!8m2!3d52.1355309!4d-0.4738973'
             }>90 Midland Road</Link>
             <Link to={
-              'https://www.google.com/maps/place/90+Midland+Rd,+Bedford+MK40+1QH/@52.1355309,-0.476086,17z/data=!4m13!1m7!3m6!1s0x4877b6ce4963c343:0x6436b246fe2ae330!2s90+Midland+Rd,+Bedford+MK40+1QH!3b1!8m2!3d52.1355309!4d-0.4738973!3m4!1s0x4877b6ce4963c343:0x6436b246fe2ae330!8m2!3d52.1355309!4d-0.4738973'
+              '//www.google.com/maps/place/90+Midland+Rd,+Bedford+MK40+1QH/@52.1355309,-0.476086,17z/data=!4m13!1m7!3m6!1s0x4877b6ce4963c343:0x6436b246fe2ae330!2s90+Midland+Rd,+Bedford+MK40+1QH!3b1!8m2!3d52.1355309!4d-0.4738973!3m4!1s0x4877b6ce4963c343:0x6436b246fe2ae330!8m2!3d52.1355309!4d-0.4738973'
             }>Bedford</Link>
             <Link to={
-              'https://www.google.com/maps/place/90+Midland+Rd,+Bedford+MK40+1QH/@52.1355309,-0.476086,17z/data=!4m13!1m7!3m6!1s0x4877b6ce4963c343:0x6436b246fe2ae330!2s90+Midland+Rd,+Bedford+MK40+1QH!3b1!8m2!3d52.1355309!4d-0.4738973!3m4!1s0x4877b6ce4963c343:0x6436b246fe2ae330!8m2!3d52.1355309!4d-0.4738973'
+              '//www.google.com/maps/place/90+Midland+Rd,+Bedford+MK40+1QH/@52.1355309,-0.476086,17z/data=!4m13!1m7!3m6!1s0x4877b6ce4963c343:0x6436b246fe2ae330!2s90+Midland+Rd,+Bedford+MK40+1QH!3b1!8m2!3d52.1355309!4d-0.4738973!3m4!1s0x4877b6ce4963c343:0x6436b246fe2ae330!8m2!3d52.1355309!4d-0.4738973'
             }>Bedfordshire</Link>
             <Link to={
-              'https://www.google.com/maps/place/90+Midland+Rd,+Bedford+MK40+1QH/@52.1355309,-0.476086,17z/data=!4m13!1m7!3m6!1s0x4877b6ce4963c343:0x6436b246fe2ae330!2s90+Midland+Rd,+Bedford+MK40+1QH!3b1!8m2!3d52.1355309!4d-0.4738973!3m4!1s0x4877b6ce4963c343:0x6436b246fe2ae330!8m2!3d52.1355309!4d-0.4738973'
+              '//www.google.com/maps/place/90+Midland+Rd,+Bedford+MK40+1QH/@52.1355309,-0.476086,17z/data=!4m13!1m7!3m6!1s0x4877b6ce4963c343:0x6436b246fe2ae330!2s90+Midland+Rd,+Bedford+MK40+1QH!3b1!8m2!3d52.1355309!4d-0.4738973!3m4!1s0x4877b6ce4963c343:0x6436b246fe2ae330!8m2!3d52.1355309!4d-0.4738973'
             }>MK40 1QH</Link>
           </div>
           
@@ -67,9 +67,7 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>07957146400</Link>
-            <Link to={
-              'mailto:d.t.njambi@gmail.com'
-              }>d.t.njambi@gmail.com</Link>
+            <Link to='/' >d.t.njambi@gmail.com</Link>
 
           </div>
 
