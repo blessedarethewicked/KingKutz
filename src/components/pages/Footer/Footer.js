@@ -78,7 +78,7 @@ function Footer() {
                 '//www.instagram.com/official_kingkutz/'
               }>Instagram</Link>
             <Link to={
-                '//www.facebook.com/pages/category/Barber-Shop/King-Kutz-111347514359243/'
+                'https://www.facebook.com/King-Kutz-111347514359243/'
               }>Facebook</Link>
           </div>
           
@@ -100,7 +100,7 @@ function Footer() {
             <Link
               className='social-icon-link'
               to={
-                '//www.facebook.com/pages/category/Barber-Shop/King-Kutz-111347514359243/'
+                '//www.facebook.com/King-Kutz-111347514359243/'
               }
               target='_blank'
               aria-label='Facebook'
