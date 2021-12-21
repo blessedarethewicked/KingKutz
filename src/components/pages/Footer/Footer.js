@@ -37,10 +37,18 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Address </h2>
-            <Link to='/'>90 Midland Road</Link>
-            <Link to='/'>Bedford</Link>
-            <Link to='/'>Bedfordshire</Link>
-            <Link to='/'>MK40 1QH</Link>
+            <Link to={
+              'https://www.google.com/maps/place/90+Midland+Rd,+Bedford+MK40+1QH/@52.1355309,-0.476086,17z/data=!4m13!1m7!3m6!1s0x4877b6ce4963c343:0x6436b246fe2ae330!2s90+Midland+Rd,+Bedford+MK40+1QH!3b1!8m2!3d52.1355309!4d-0.4738973!3m4!1s0x4877b6ce4963c343:0x6436b246fe2ae330!8m2!3d52.1355309!4d-0.4738973'
+            }>90 Midland Road</Link>
+            <Link to={
+              'https://www.google.com/maps/place/90+Midland+Rd,+Bedford+MK40+1QH/@52.1355309,-0.476086,17z/data=!4m13!1m7!3m6!1s0x4877b6ce4963c343:0x6436b246fe2ae330!2s90+Midland+Rd,+Bedford+MK40+1QH!3b1!8m2!3d52.1355309!4d-0.4738973!3m4!1s0x4877b6ce4963c343:0x6436b246fe2ae330!8m2!3d52.1355309!4d-0.4738973'
+            }>Bedford</Link>
+            <Link to={
+              'https://www.google.com/maps/place/90+Midland+Rd,+Bedford+MK40+1QH/@52.1355309,-0.476086,17z/data=!4m13!1m7!3m6!1s0x4877b6ce4963c343:0x6436b246fe2ae330!2s90+Midland+Rd,+Bedford+MK40+1QH!3b1!8m2!3d52.1355309!4d-0.4738973!3m4!1s0x4877b6ce4963c343:0x6436b246fe2ae330!8m2!3d52.1355309!4d-0.4738973'
+            }>Bedfordshire</Link>
+            <Link to={
+              'https://www.google.com/maps/place/90+Midland+Rd,+Bedford+MK40+1QH/@52.1355309,-0.476086,17z/data=!4m13!1m7!3m6!1s0x4877b6ce4963c343:0x6436b246fe2ae330!2s90+Midland+Rd,+Bedford+MK40+1QH!3b1!8m2!3d52.1355309!4d-0.4738973!3m4!1s0x4877b6ce4963c343:0x6436b246fe2ae330!8m2!3d52.1355309!4d-0.4738973'
+            }>MK40 1QH</Link>
           </div>
           
           <div className='footer-link-items'>
@@ -59,16 +67,20 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>07957146400</Link>
-            <Link to='/'>d.t.njambi@gmail.com</Link>
+            <Link to={
+              'mailto:d.t.njambi@gmail.com'
+              }>d.t.njambi@gmail.com</Link>
 
           </div>
 
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to={
+                '//www.instagram.com/official_kingkutz/'
+              }>Instagram</Link>
+            <Link to={
+                '//www.facebook.com/pages/category/Barber-Shop/King-Kutz-111347514359243/'
+              }>Facebook</Link>
           </div>
           
         </div>
@@ -89,7 +101,7 @@ function Footer() {
             <Link
               className='social-icon-link'
               to={
-                'https://www.facebook.com/pages/category/Barber-Shop/King-Kutz-111347514359243/'
+                '//www.facebook.com/pages/category/Barber-Shop/King-Kutz-111347514359243/'
               }
               target='_blank'
               aria-label='Facebook'
@@ -99,7 +111,7 @@ function Footer() {
             <Link
               className='social-icon-link'
               to={
-                'https://www.instagram.com/official_kingkutz/'
+                '//www.instagram.com/official_kingkutz/'
               }
               target='_blank'
               aria-label='Instagram'
