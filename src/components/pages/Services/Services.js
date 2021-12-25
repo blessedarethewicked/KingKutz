@@ -52,7 +52,7 @@ function Services() {
 
                     </p>
                     <p className="s-text">We also do cuts for kids. We know that presentation is important
-                        therefore we give a fresh cut to show of to their friends
+                        therefore we give a fresh cut to show off to their friends
                     </p>
                 </div>
             </div>
