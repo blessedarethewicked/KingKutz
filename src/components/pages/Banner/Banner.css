@@ -1,0 +1,19 @@
+.banner-div{
+    display: -ms-flex;
+    display: -webkit-flex;
+    /* display: flex; */
+    /* height: 10hv; */
+    
+}
+.banner{
+    width: 100%;
+    /* top: 0px; */
+    /* left: 0px; */
+    /* z-index: -100; */
+
+    position: relative;
+    /* opacity: 0; */
+
+
+
+}
