@@ -24,7 +24,11 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to='/' className='navbar-logo'>
+<<<<<<< HEAD
                         <img src={process.env.PUBLIC_URL + "/images/whitenewlogo.png" }
+=======
+                        <img src={process.env.PUBLIC_URL + "/images/logo.jpg" }
+>>>>>>> 08aa3360ee511cec5aa82b455cb414cb194c15f1
                                 className='navbar-logo-image' alt="King Kutz Logo" />
 
                     </Link>
@@ -62,10 +66,33 @@ function Navbar() {
                             About
                             </Link>
                         </li>
+<<<<<<< HEAD
 
                     </ul>
                     <div className='menu-icon' onClick={handleClick}>
                         {click ? <FaTimes style={{color:"black"}}/> : <FaBars style={{color:"black"}} />}
+=======
+                        {/* <li className='nav-btn'>
+                            {button ? (
+                            <Link to='/sign-up' className='btn-link'>
+                                <Button buttonStyle='btn--outline'>Book</Button>
+                            </Link>
+                            ) : (
+                            <Link to='/sign-up' className='btn-link'>
+                                <Button
+                                buttonStyle='btn--outline'
+                                buttonSize='btn--mobile'
+                                onClick={closeMobileMenu}
+                                >
+                                Book
+                                </Button>
+                            </Link>
+                            )}
+                        </li> */}
+                    </ul>
+                    <div className='menu-icon' onClick={handleClick}>
+                        {click ? <FaTimes /> : <FaBars />}
+>>>>>>> 08aa3360ee511cec5aa82b455cb414cb194c15f1
                     </div>
                 </div>
             </nav>
