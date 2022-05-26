@@ -1,5 +1,4 @@
 .banner-div{
-<<<<<<< HEAD
     display: -ms-flex;
     display: -webkit-flex;
     /* display: flex; */
@@ -18,13 +17,3 @@
 
 
 }
-=======
-    /* height: max-content; */
-    background-color: black;
-}
-.banner{
-    width: 100%;
-    /* height: max-content; */
-}
-
->>>>>>> 08aa3360ee511cec5aa82b455cb414cb194c15f1

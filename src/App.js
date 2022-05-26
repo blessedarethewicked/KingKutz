@@ -19,14 +19,6 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='*' element={<PageNotFound/>}/>
       </Routes>
-<<<<<<< HEAD
-=======
-      {/* <Navbar />
-      <Banner/>
-      <Services/>
-      <Gallery/>
-      <Footer /> */}
->>>>>>> 08aa3360ee511cec5aa82b455cb414cb194c15f1
     </Router>
   );
 }
