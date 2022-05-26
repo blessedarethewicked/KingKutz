@@ -50,12 +50,12 @@
 }
   
 .nav-links {
-color: rgb(0, 0, 0);
-display: flex;
-align-items: center;
-text-decoration: none;
-padding: 0.5rem 1rem;
-height: 100%;
+  color: #ffbb35;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
 }
 
 .nav-links:hover{

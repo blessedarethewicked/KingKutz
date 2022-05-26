@@ -56,7 +56,7 @@ function Footer() {
 
           </div>
 
-          <div className='footer-link-items'>
+          {/* <div className='footer-link-items'>
             <h2>Social Media</h2>
             <Link to={
                 '//www.instagram.com/official_kingkutz/'
@@ -64,7 +64,7 @@ function Footer() {
             <Link to={
                 '//www.facebook.com/King-Kutz-111347514359243/'
               }>Facebook</Link>
-          </div>
+          </div> */}
           
         </div>
 
