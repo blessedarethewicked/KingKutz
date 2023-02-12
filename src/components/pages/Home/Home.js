@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../Navbar'
 import Banner from '../Banner/Banner'
+import Booking from '../Booking/Booking'
 import Footer from '../Footer/Footer'
 import Gallery from '../Gallery/Gallery'
 import Services from '../Services/Services'
@@ -13,6 +14,7 @@ function Home() {
             <Banner/>
             <Services/>
             <Gallery/>
+            <Booking/>
             <Stuff/>
             <Footer />
             

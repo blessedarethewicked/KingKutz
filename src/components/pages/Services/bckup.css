@@ -1,0 +1,126 @@
+.services-container{
+    background: rgb(0,0,0);
+    /* background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(211,161,98,1) 10%, rgba(0,0,0,1) 10%); */
+    color: rgb(248,248,255) ;
+    /* display: grid; */
+}
+.img{
+    text-align: center;
+}
+.services-grid{
+    display: grid;
+}
+.text{
+    align-items: center;
+    text-align: center;
+
+}
+.services-title{
+    text-align: center;
+    background-color: rgb(255, 255, 255) ;
+}
+.service-title{
+
+    text-align: center;
+    padding-bottom: 50px;
+    /* padding-right:50px; */
+
+}
+.service-text{
+    text-align: center;
+    color: black;
+    /* width: 50%; */
+}
+
+.row{
+    display: table;
+    width: 100%; /*Optional*/
+    /* table-layout: fixed;  */
+    /* border-spacing: 10px;  */
+    justify-content: space-between;
+    text-align: center;
+}
+.service{
+    display: flex;
+    background: linear-gradient(320deg, rgba(255,255,255,1) 0%, rgba(171,171,171,1) 100%);
+
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.service:hover{
+    transition-duration: 0.25s;
+    /* color: rgba(211,161,98,1);#
+     */
+    transform: scale(1.04s);
+
+    padding-bottom: 20px;
+}
+
+.service-reverse{
+    display: flex;
+    background: linear-gradient(20deg, rgba(255,255,255,1) 0%, rgba(171,171,171,1) 100%);
+
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.service-reverse:hover{
+    transition-duration: 0.25s;
+    /* color: rgba(211,161,98,1);#
+     */
+    transform: scale(1.04s);
+
+    padding-bottom: 20px;
+}
+
+.large{
+    padding-bottom: 30px;
+}
+.fade-image{
+    width: 70px;
+    margin-left: 10px;
+}
+
+.beard-image{
+    margin-right: 10px;
+    /* size: 120%; */
+    
+    height: 80px;
+    
+    
+}
+.child-image{
+    margin-left: 5px;
+    height: 80px;
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .service{
+        display: flex;
+        flex-direction: row;
+        /* padding-bottom: 20px; */
+    }
+    .service-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        /* padding-bottom: 20px; */
+    }
+    .text{
+        align-items: center;
+        text-align: center;
+        box-shadow: none;
+        margin: 10px;
+    }
+
+    .img{
+        height: max-content;
+    }
+
+}

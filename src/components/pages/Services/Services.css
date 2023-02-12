@@ -1,126 +1,75 @@
-.services-container{
-    background: rgb(0,0,0);
+/* Service Card css */
+.services-Container{
+    background: rgb(255, 255, 255);
     /* background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(211,161,98,1) 10%, rgba(0,0,0,1) 10%); */
-    color: rgb(248,248,255) ;
+
+    color: rgb(0, 0, 0) ;
     /* display: grid; */
-}
-.img{
-    text-align: center;
-}
-.services-grid{
-    display: grid;
-}
-.text{
-    align-items: center;
-    text-align: center;
 
-}
-.services-title{
-    text-align: center;
-    background-color: rgb(255, 255, 255) ;
-}
-.service-title{
-
-    text-align: center;
-    padding-bottom: 50px;
-    /* padding-right:50px; */
-
-}
-.service-text{
-    text-align: center;
-    color: black;
-    /* width: 50%; */
+    border: 0px;
+    border-style: solid;
+    border-radius: 5px;
 }
 
-.row{
-    display: table;
-    width: 100%; /*Optional*/
-    /* table-layout: fixed;  */
-    /* border-spacing: 10px;  */
-    justify-content: space-between;
-    text-align: center;
+.Service-Card-Container{
+    justify-content: center;
+ align-items: center;
 }
-.service{
+
+
+.Service-Button-Container{
     display: flex;
-    background: linear-gradient(320deg, rgba(255,255,255,1) 0%, rgba(171,171,171,1) 100%);
-
-    width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
-
-
+    justify-content: center;
 }
-.service:hover{
-    transition-duration: 0.25s;
-    /* color: rgba(211,161,98,1);#
-     */
-    transform: scale(1.04s);
-
-    padding-bottom: 20px;
-}
-
-.service-reverse{
-    display: flex;
-    background: linear-gradient(20deg, rgba(255,255,255,1) 0%, rgba(171,171,171,1) 100%);
-
-    width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
-
-
-}
-.service-reverse:hover{
-    transition-duration: 0.25s;
-    /* color: rgba(211,161,98,1);#
-     */
-    transform: scale(1.04s);
-
-    padding-bottom: 20px;
-}
-
-.large{
+.Service-Card-Title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
     padding-bottom: 30px;
+    padding-top: 20px;
 }
-.fade-image{
-    width: 70px;
-    margin-left: 10px;
+.Service-Card-Discription{
+    text-align: center;
+    font-size: 20px;
 }
-
-.beard-image{
-    margin-right: 10px;
-    /* size: 120%; */
-    
-    height: 80px;
-    
-    
-}
-.child-image{
-    margin-left: 5px;
-    height: 80px;
-    
+.Service-Card-Price{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 10px;
 }
 
+/* Prev button css */
+.Service-Prev-Button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.Service-Prev-Button:hover{
+    opacity: 50%;
+}
+
+/* Next Button css */
+
+.Service-Next-Button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.Service-Next-Button:hover{
+    opacity: 50%;
+}
 
 @media screen and (max-width: 800px) {
-    .service{
-        display: flex;
-        flex-direction: row;
-        /* padding-bottom: 20px; */
-    }
-    .service-reverse{
-        display: flex;
-        flex-direction: row-reverse;
-        /* padding-bottom: 20px; */
-    }
-    .text{
-        align-items: center;
-        text-align: center;
-        box-shadow: none;
-        margin: 10px;
-    }
-
-    .img{
-        height: max-content;
-    }
-
+    
 }

@@ -10,7 +10,7 @@ function Gallery() {
 
         {
             id: 0,
-            imgSrc: process.env.PUBLIC_URL + "/images/client2.jpg"
+            imgSrc: process.env.PUBLIC_URL + "/images/client9.jpg"
         },
         {
             id: 1,
@@ -43,6 +43,38 @@ function Gallery() {
         {
             id: 8,
             imgSrc: process.env.PUBLIC_URL + "/images/client8.jpg"
+        },
+        {
+            id: 9,
+            imgSrc: process.env.PUBLIC_URL + "/images/client2.jpg"
+        },
+        {
+            id: 10,
+            imgSrc: process.env.PUBLIC_URL + "/images/client10.jpg"
+        },
+        {
+            id: 11,
+            imgSrc: process.env.PUBLIC_URL + "/images/client11.jpg"
+        },
+        {
+            id: 12,
+            imgSrc: process.env.PUBLIC_URL + "/images/clippers.jpg"
+        },
+        {
+            id: 13,
+            imgSrc: process.env.PUBLIC_URL + "/images/client13.jpg"
+        },
+        {
+            id: 14,
+            imgSrc: process.env.PUBLIC_URL + "/images/client14.jpg"
+        },
+        {
+            id: 15,
+            imgSrc: process.env.PUBLIC_URL + "/images/client12.jpg"
+        },
+        {
+            id: 16,
+            imgSrc: process.env.PUBLIC_URL + "/images/shop-background.jpg"
         },
 
     ]

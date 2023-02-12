@@ -1,0 +1,6 @@
+.Booking-Card-Container{
+    display: grid;
+    text-align:center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}

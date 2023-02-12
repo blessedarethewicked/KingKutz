@@ -50,7 +50,11 @@ function Footer() {
           
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>07957146400</Link>
+           
+            <Link to='/'> <p>Shop:</p>01234 353552</Link>
+            
+            <Link to='/'><p>Dexter:</p> 07957146400</Link>
+            <Link to='/'><p>Mo:</p> 07413998088</Link>
             {/* <Link to='/' >d.t.njambi@gmail.com</Link> */}
             <a href="mailto:d.t.njambi@gmail.com">d.t.njambi@gmail.com</a>
 
@@ -78,7 +82,7 @@ function Footer() {
               KING KUTZ
             </Link>
           </div>
-          <small className='website-rights'>KING KUTZ © 2022</small>
+          <small className='website-rights'>KING KUTZ © 2023</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'

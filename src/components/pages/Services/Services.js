@@ -1,75 +1,67 @@
+import { Button } from '@material-ui/core'
 import React from 'react'
+import { useState } from 'react'
 import './Services.css'
 
 
 
 function Services() {
+
+    let ServicesData = [
+        {   
+            ID:1,
+            Title: "Basic Hair Cut",
+            Discription: "A nice fresh hair cut; with or without a fade.",
+            Price: 20
+        },
+        {   
+            ID:2,
+            Title: "hair Cut with Beards",
+            Discription: "For our brothers blessed with a a beard we can give you a sick cut and the freshest facial hair.",
+            Price:25
+        },
+        {   
+            ID:3,
+            Title: "Beards",
+            Discription: "We can give you the best facial hair, whatever style you desire.",
+            Price: 10
+        },
+        {   
+            ID:4,
+            Title: "Children",
+            Discription: "We are very kid friendly and we will make sure that your young one has the best haircut at school the next day.", 
+            Price:15
+        },
+
+    ]
+    const [CurrentService, setCurrentService] = useState(0)
+    const length = ServicesData.length
+
+    const nextService=()=>{
+        setCurrentService(CurrentService+1>=length ? 0:CurrentService+1)
+    }
+    const prevService=()=>{
+        setCurrentService(CurrentService===0 ? length-1 :CurrentService-1)
+    }
+
     return (
         <div className="services-Container">
-            {/* <h2 className="services-title"> Services and Styles</h2> */}
-            <div className="services-grid">
-                
-                {/* Fade */}
-                <div className="service">
-                    <div className="img">
-                        <img src={process.env.PUBLIC_URL + "/images/fade1.png" }
-                                className='fade-image' alt="Fade Hair cut" 
-                        />
-                    </div>
-                    <div className="text">
+            {/* A card which show the current service */}
+            <div className='Service-Card-Container'>
+                <div className="Service-Card-Title">{ServicesData[CurrentService].Title}</div>    
+                <div className="Service-Card-Discription">{ServicesData[CurrentService].Discription}</div>
+                <div className="Service-Card-Price">£{ServicesData[CurrentService].Price}</div>    
+             </div>
 
-                        <p className="service-title">
-                            <b>SKIN FADE</b>
-                        </p>
-                        <p className="service-text">
-                            A Skin fade is a cut where the length of the hair gradualy descreses
-                            thus creating a gradient/fade. <b>(£20)</b>
-                        </p>
-                    </div>
+            {/* Button to scroll through the services */}
+            <div className="Service-Button-Container">
+                {/* onClick={nextSlide} */}
+                <div className="Service-Prev-Button-Container">
+                    <div className='Service-Prev-Button' onClick={nextService}>Prev</div>
                 </div>
-
-                {/* BEARDS */}
-                <div className="service-reverse">
-                    <div className="img">
-                    <img src={process.env.PUBLIC_URL + "/images/Beard.png" }
-                            className='beard-image' alt="Beards" />
-                    </div>
-
-                    <div className="text">
-                        <p className="service-title">
-                            <b>BEARDS</b>
-
-                        </p>
-                        <p className="service-text">
-                            Good facial hair can make or break a man so we make sure to take care 
-                            when dealing with it. We offer beard trims and full beard shaves. 
-                            Look your best with a sharp and well trimmed beard.
-                        </p>
-                    </div>
-                    
+                <div className="Service-Next-Button-Container">
+                <div className='Service-Next-Button'  onClick={prevService}>Next</div>
                 </div>
-
-                {/* Children */}
-                <div className="service">
-                    <div className="img">
-                    <img src={process.env.PUBLIC_URL + "/images/child.png" }
-                            className='child-image' alt="Child Hair Cut" />
-                    </div>
-
-                    <div className="text">
-                        <p className="service-title">
-                            <b>CHILDREN</b>
-                        </p>
-
-                    
-                        <p className="service-text">
-                            We also do cuts for kids. We know that presentation is important
-                            therefore we give a fresh cut to show off to their friends.
-                        </p>
-                    </div>
-                    
-                </div>
-
             </div>
         </div>
     )
