@@ -50,14 +50,24 @@ function Footer() {
           
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
-           
-            <Link to='/'> <p>Shop:</p>01234 353552</Link>
+
+
+            <div>
+              <Link to='/'>Shop 01234 353552</Link>
+            </div>
             
-            <Link to='/'><p>Dexter:</p> 07957146400</Link>
-            <Link to='/'><p>Mo:</p> 07413998088</Link>
+            <div>
+              <p>Dexter:</p>
+              <Link to='/'>Dexter 07957146400</Link>
+            </div>
+
+            <div>
+              <p>Mo:</p>
+              <Link to='/'>Mo 07413998088</Link>
+            </div>
             {/* <Link to='/' >d.t.njambi@gmail.com</Link> */}
             <a href="mailto:d.t.njambi@gmail.com">d.t.njambi@gmail.com</a>
-
+            
           </div>
 
           {/* <div className='footer-link-items'>
