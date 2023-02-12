@@ -38,7 +38,7 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Opening Hours </h2>
 
-            <Link to='/'>Mon : 10am-7pm</Link>
+            <Link to='/'>Mon : Closed</Link>
             <Link to='/'>Tue : 10am-7pm</Link>
             <Link to='/'>Wed : 10am-7pm</Link>
             <Link to='/'>Thu : 10am-7pm</Link>

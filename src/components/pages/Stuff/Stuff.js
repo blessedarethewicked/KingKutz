@@ -12,8 +12,10 @@ function Stuff() {
             </div>
             <div className="stuff-info">
                 <h3><b>Dereck</b></h3>
-                <p>Our award winning barber, with 9 years over experience.
+                <p>
+                    Our award winning barber, with over 9 years experience.
                     He is great with any hair type, regardless of ethnicity. 
+                    He requires booking though the phone number below.
                 </p>
             </div>
         </div>
@@ -25,9 +27,12 @@ function Stuff() {
             </div>
             <div className="stuff-info">
                 <h3><b>Mo</b></h3>
-                <p>Although new he is great with any hair type. 
-                    He allows walk-ins
-                    
+                <p>
+                    Funny, charming and dedicated. He has been part of the team 
+                    for a while, and he is very enthusiastic about his work. 
+                    He can cut any hair type and will take his time to make sure 
+                    you have the best fade in all of Bedford.
+
                 </p>
             </div>
         </div>
