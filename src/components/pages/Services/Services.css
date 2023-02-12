@@ -66,9 +66,7 @@
     margin: 10px 0px;
     cursor: pointer;
 }
-.Service-Next-Button:hover{
-    opacity: 50%;
-}
+
 
 @media screen and (max-width: 800px) {
     
