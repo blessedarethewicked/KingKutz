@@ -7,23 +7,24 @@ function Gallery() {
 
     let data=[
 
-
         {
             id: 0,
-            imgSrc: process.env.PUBLIC_URL + "/images/client9.jpg"
-        },
-        {
-            id: 1,
-            imgSrc: process.env.PUBLIC_URL + "/images/dexter-photo.jpg"
-        },
-        {
-            id: 2,
-            imgSrc: process.env.PUBLIC_URL + "/images/client1.jpg",
-        },
-        {
-            id: 3,
             imgSrc: process.env.PUBLIC_URL + "/images/mk-mural.jpg"
         },
+        {   
+            // change this
+            id: 1,
+            imgSrc: process.env.PUBLIC_URL + "/images/client1.jpg"
+        },
+        {
+            // change this
+            id: 2,
+            imgSrc: process.env.PUBLIC_URL + "/images/client2.jpg"
+        },
+        // {
+        //     id: 3,
+        //     imgSrc: process.env.PUBLIC_URL + "/images/client3.jpg",
+        // },
         {
             id: 4,
             imgSrc: process.env.PUBLIC_URL + "/images/client4.jpg"
@@ -46,7 +47,7 @@ function Gallery() {
         },
         {
             id: 9,
-            imgSrc: process.env.PUBLIC_URL + "/images/client2.jpg"
+            imgSrc: process.env.PUBLIC_URL + "/images/client9.jpg"
         },
         {
             id: 10,
@@ -58,23 +59,33 @@ function Gallery() {
         },
         {
             id: 12,
-            imgSrc: process.env.PUBLIC_URL + "/images/clippers.jpg"
+            imgSrc: process.env.PUBLIC_URL + "/images/client12.jpg"
         },
         {
             id: 13,
             imgSrc: process.env.PUBLIC_URL + "/images/client13.jpg"
         },
         {
+            // change 13
             id: 14,
             imgSrc: process.env.PUBLIC_URL + "/images/client14.jpg"
         },
         {
             id: 15,
-            imgSrc: process.env.PUBLIC_URL + "/images/client12.jpg"
+            imgSrc: process.env.PUBLIC_URL + "/images/client15.jpg"
         },
         {
+            // change this
             id: 16,
+            imgSrc: process.env.PUBLIC_URL + "/images/client16.jpg"
+        },
+        {
+            id: 17,
             imgSrc: process.env.PUBLIC_URL + "/images/shop-background.jpg"
+        },
+        {
+            id: 18,
+            imgSrc: process.env.PUBLIC_URL + "/images/clippers.jpg"
         },
 
     ]

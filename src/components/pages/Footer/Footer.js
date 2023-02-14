@@ -56,10 +56,10 @@ function Footer() {
               <Link to='/'>Shop 01234 353552</Link>
             </div>
             
-            <div>
+            {/* <div>
               <p>Dexter:</p>
               <Link to='/'>Dexter 07957146400</Link>
-            </div>
+            </div> */}
 
             <div>
               <p>Mo:</p>

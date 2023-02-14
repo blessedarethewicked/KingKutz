@@ -5,7 +5,7 @@ import Booking from '../Booking/Booking'
 import Footer from '../Footer/Footer'
 import Gallery from '../Gallery/Gallery'
 import Services from '../Services/Services'
-import Stuff from '../Stuff/Stuff'
+// import Stuff from '../Stuff/Stuff'
 
 function Home() {
     return (
@@ -15,7 +15,7 @@ function Home() {
             <Services/>
             <Gallery/>
             <Booking/>
-            <Stuff/>
+            {/* <Stuff/> */}
             <Footer />
             
         </div>
