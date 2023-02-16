@@ -1,6 +1,130 @@
+
+/* Booking Card */
 .Booking-Card-Container{
     display: grid;
     text-align:center;
     font-size: 30px;
     padding-bottom: 10px;
+}
+
+/* Booking button */
+.Booking-Button-Container{
+    display: flex;
+    justify-content: center;
+}
+
+.Booking-Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    border: 2px solid Black;
+    border-radius: 5px;
+    margin-top: 10;
+    width: 170px;
+    height: 40px;
+
+
+}
+
+.Booking-Button:hover{
+    background-color: bisque;
+}
+.Booking-Button:active{
+    background-color: bisque;
+}
+
+/* Cancel Booking Button */
+
+.Cancel-Booking-Button-Container{
+    /* display: grid; */
+    font-size: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.Cancel-Booking-Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    border: 2px solid rgb(202, 199, 199);
+    border-radius: 5px;
+    margin-top: 10;
+    width: 140px;
+    height: 30px;
+
+
+}
+
+/* confirm Button */
+.Confirm-Button-Container{
+    font-size: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.Confirm-Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 10;
+    width: 160px;
+    height: 40px;
+}
+
+/* Input forms */
+.Input-Form-Container{
+    display: grid;
+    justify-content: center;
+    font-size: 17px;
+}
+.Input-Name{
+    display: flex;
+    padding-bottom: 10px;
+
+}
+.Input-PhoneNumber{
+    display: flex;
+    padding-bottom: 10px;
+}
+.Input-Email{
+    display: flex;
+    padding-bottom: 10px;
+}
+.Input-Date{
+    display: flex;
+    padding-bottom: 10px;
+}
+.Input-Time{
+    display: flex;
+    padding-bottom: 10px;
+}
+.Input-Form-label{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    
+}
+input[type=text], select{
+    /* border: 5px; */
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    /* border-bottom: 5px; */
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+
 }
